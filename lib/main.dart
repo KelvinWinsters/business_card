@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'drawer.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -55,7 +57,7 @@ class MyApp extends StatelessWidget {
                         color: Colors.teal,
                       ),
                       title: Text(
-                        '+254-745-442-665',
+                        '+254-123-456-789',
                         style: TextStyle(
                           color: Colors.teal.shade900,
                           fontFamily: 'Source Sans Pro',
@@ -71,7 +73,7 @@ class MyApp extends StatelessWidget {
                         color: Colors.teal,
                       ),
                       title: Text(
-                        'mkelvinokumu@gmail.com',
+                        'flutterdev@gmail.com',
                         style: TextStyle(
                             fontSize: 20.0,
                             color: Colors.teal.shade900,
@@ -80,7 +82,7 @@ class MyApp extends StatelessWidget {
                     ))
               ],
             )),
-        // drawer: MyDrawer(),
+        drawer: MyDrawer(),
       ),
     );
   }
