@@ -29,6 +29,6 @@ class MyDrawer extends StatelessWidget {
           ),
         ],
       ),
-    );// drawer
+    );
   }
 }
